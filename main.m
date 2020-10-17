@@ -2,7 +2,7 @@ clc
 close all     
 clear all;   
 %% test a gray image 
-f_ori=imread('brain.bmp');
+f_ori=imread('input.bmp');
 fn=imnoise(f_ori,'gaussian',0.03);
 %% parameters
 cluster=5; % the number of clustering centers
